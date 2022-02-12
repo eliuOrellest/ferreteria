@@ -1,0 +1,119 @@
+/* body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */
+
+#searchbox{
+    width:250px;
+    box-sizing:content-box;
+    text-align: center;
+    border-style:solid;
+}
+.logo {
+    position: relative;
+    top:20px;
+   height: 170px;
+  text-align: center;
+}
+
+.nav-superior .navbar-nav .nav-item .nav-link{
+    color: rgb(250, 250, 250);
+}
+.nav-superior .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(238, 9, 9);
+}
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo button{
+    margin-bottom: 3px;
+}
+
+.logo div:nth-child(2)   {
+ position: inherit;
+ top: 20px;
+}
+
+
+.logo div:nth-child(3)  .row {
+    position: relative;
+   justify-content: center;
+   top: 20px;
+}
+
+.row .logo-3thdiv{
+ margin-bottom: 10px;
+width: 20%;
+margin-left: 10px;
+/* font-family: 'Oswald', sans-serif; */
+border-style:double;
+
+}
+
+.row .logo-3thdiv:hover{
+    background-color: rgb(241, 69, 69);
+    cursor:pointer;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .logo div:nth-child(3) {
+        margin: 0 auto;
+    }
+   
+  
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .logo{
+        height: 200px;
+    }
+
+   
+ }
+
+@media all and (max-width: 480px) {
+    .logo{
+        height: 300px;       
+    }
+    
+}
+
+@media all and (max-width: 320px) {
+    #searchbox{
+        width: 220px;
+    }
+    
+}
+
+.ofertas{
+    position: relative;
+    top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fa-angle-left{
+    color: rgb(235, 10, 10);
+    margin-right: 210px;
+}
+
+.fa-angle-right{
+    color: rgb(235, 10, 10);
+    margin-left: 210px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card{
+    margin: 0 auto;
+}
