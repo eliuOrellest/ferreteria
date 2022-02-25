@@ -164,7 +164,7 @@ body {
     font-size: large;
 }
 
-#categorias .card{
+#categorias .card, #ofertasdia .card{
     padding: 0;
 }
 
@@ -199,3 +199,12 @@ body {
     text-shadow: 3px 2px 5px cyan;
 }
 
+.precio{
+    font-size: 2.1rem;
+}
+
+.descuento{
+    font-size:1.5rem ; 
+    text-decoration: line-through; 
+    color: tomato;
+}
